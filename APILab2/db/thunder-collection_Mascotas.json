@@ -1,0 +1,66 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Mascotas",
+    "dateExported": "2024-02-09T17:45:17.018Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6be3c981-4fd8-4621-9da8-6f6034e6cfd9",
+            "colId": "f54f2657-6c63-4429-b041-71b202600432",
+            "containerId": "",
+            "name": "get Mascotas",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-09T17:39:38.408Z",
+            "modified": "2024-02-09T17:43:51.136Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "950c9060-98d6-47c2-bccc-eb08161e8885",
+            "colId": "f54f2657-6c63-4429-b041-71b202600432",
+            "containerId": "",
+            "name": "post Mascotas",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-09T17:40:16.406Z",
+            "modified": "2024-02-09T17:43:55.997Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Lorito\",\n  \"especie\": \"Loro\",\n  \"raza\": \"Prueba\",\n  \"edad\": 2\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "babc9829-dc2f-44c5-9849-8101c215c31c",
+            "colId": "f54f2657-6c63-4429-b041-71b202600432",
+            "containerId": "",
+            "name": "put Mascota",
+            "url": "",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-09T17:40:47.012Z",
+            "modified": "2024-02-09T17:40:47.012Z",
+            "headers": []
+        },
+        {
+            "_id": "4eee5d8f-b78b-424b-8e21-970577958bdc",
+            "colId": "f54f2657-6c63-4429-b041-71b202600432",
+            "containerId": "",
+            "name": "delete Mascota",
+            "url": "",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-09T17:41:02.380Z",
+            "modified": "2024-02-09T17:41:02.380Z",
+            "headers": []
+        }
+    ]
+}
