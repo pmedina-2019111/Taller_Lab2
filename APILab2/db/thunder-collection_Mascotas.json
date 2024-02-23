@@ -1,34 +1,34 @@
 {
     "client": "Thunder Client",
     "collectionName": "Mascotas",
-    "dateExported": "2024-02-09T17:45:17.018Z",
+    "dateExported": "2024-02-23T17:23:46.278Z",
     "version": "1.1",
     "folders": [],
     "requests": [
         {
-            "_id": "6be3c981-4fd8-4621-9da8-6f6034e6cfd9",
-            "colId": "f54f2657-6c63-4429-b041-71b202600432",
+            "_id": "0b351e1b-4101-46b7-a83c-b42a1b100d01",
+            "colId": "fa4a94ce-fbc8-4920-ab57-73a09706de03",
             "containerId": "",
             "name": "get Mascotas",
             "url": "http://localhost:3000/api/mascotas",
             "method": "GET",
             "sortNum": 10000,
-            "created": "2024-02-09T17:39:38.408Z",
-            "modified": "2024-02-09T17:43:51.136Z",
+            "created": "2024-02-23T15:22:36.894Z",
+            "modified": "2024-02-23T15:22:36.894Z",
             "headers": [],
             "params": [],
             "tests": []
         },
         {
-            "_id": "950c9060-98d6-47c2-bccc-eb08161e8885",
-            "colId": "f54f2657-6c63-4429-b041-71b202600432",
+            "_id": "84a02bba-d489-44c5-bc17-49fc8bc8579c",
+            "colId": "fa4a94ce-fbc8-4920-ab57-73a09706de03",
             "containerId": "",
             "name": "post Mascotas",
             "url": "http://localhost:3000/api/mascotas",
             "method": "POST",
             "sortNum": 20000,
-            "created": "2024-02-09T17:40:16.406Z",
-            "modified": "2024-02-09T17:43:55.997Z",
+            "created": "2024-02-23T15:22:36.895Z",
+            "modified": "2024-02-23T15:22:36.895Z",
             "headers": [],
             "params": [],
             "body": {
@@ -39,28 +39,51 @@
             "tests": []
         },
         {
-            "_id": "babc9829-dc2f-44c5-9849-8101c215c31c",
-            "colId": "f54f2657-6c63-4429-b041-71b202600432",
+            "_id": "3aeb8d85-6233-47cf-8362-68a619e22e12",
+            "colId": "fa4a94ce-fbc8-4920-ab57-73a09706de03",
             "containerId": "",
             "name": "put Mascota",
-            "url": "",
-            "method": "GET",
+            "url": "http://localhost:3000/api/mascotas/65c660d916ef814640f597b9",
+            "method": "PUT",
             "sortNum": 30000,
-            "created": "2024-02-09T17:40:47.012Z",
-            "modified": "2024-02-09T17:40:47.012Z",
-            "headers": []
+            "created": "2024-02-23T15:22:36.896Z",
+            "modified": "2024-02-23T16:27:45.550Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"michi\",\n  \"especie\": \"gato\",\n  \"raza\": \"pmeranian\",\n  \"edad\": 2\n}",
+                "form": []
+            },
+            "tests": []
         },
         {
-            "_id": "4eee5d8f-b78b-424b-8e21-970577958bdc",
-            "colId": "f54f2657-6c63-4429-b041-71b202600432",
+            "_id": "d16b959d-cffc-4cd4-919f-17a334afa4a8",
+            "colId": "fa4a94ce-fbc8-4920-ab57-73a09706de03",
             "containerId": "",
             "name": "delete Mascota",
-            "url": "",
-            "method": "GET",
+            "url": "http://localhost:3000/api/mascotas/65c660d916ef814640f597b9",
+            "method": "DELETE",
             "sortNum": 40000,
-            "created": "2024-02-09T17:41:02.380Z",
-            "modified": "2024-02-09T17:41:02.380Z",
-            "headers": []
+            "created": "2024-02-23T15:22:36.897Z",
+            "modified": "2024-02-23T16:27:46.966Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a1eec193-cd20-418f-aedd-e533d3730524",
+            "colId": "fa4a94ce-fbc8-4920-ab57-73a09706de03",
+            "containerId": "",
+            "name": "get ByIdMascotas",
+            "url": "http://localhost:3000/api/mascotas/65c660d916ef814640f597b9",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-02-23T17:23:06.092Z",
+            "modified": "2024-02-23T17:23:28.772Z",
+            "headers": [],
+            "params": [],
+            "tests": []
         }
     ]
 }
